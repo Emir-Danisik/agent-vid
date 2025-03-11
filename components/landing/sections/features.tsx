@@ -33,11 +33,11 @@ export const FeaturesSection = () => {
         <div className="md:w-1/2">
           <FadeInWhenVisible>
             <h2 className="text-3xl md:text-5xl font-bold mb-4">
-              Upload <span className="text-primary">Your Firm's Templates</span> 🏢
+              Upload <span className="text-primary">Your Firm&apos;s Templates</span> 🏢
             </h2>
             <p className="text-xl text-muted-foreground mb-6">
-              Simply upload your firm's existing OM templates and our app will use your 
-              company's branding to create professionally designed offering memorandums 
+              Simply upload your firm&apos;s existing OM templates and our app will use your 
+              company&apos;s branding to create professionally designed offering memorandums 
               that maintain your brand identity while saving you hours of work.
             </p>
             <motion.div 
@@ -152,7 +152,7 @@ export const FeaturesSection = () => {
               <span className="text-primary">95% Done</span> - Just Review and Refine
             </h2>
             <p className="text-xl text-muted-foreground mb-6">
-              We get you 90% of the way there - all that's left is a quick review. 
+              We get you 90% of the way there - all that&apos;s left is a quick review. 
               Open your OM directly in Canva to easily edit any element with just a few clicks,
               making last-minute adjustments a breeze.
             </p>
