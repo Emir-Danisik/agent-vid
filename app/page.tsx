@@ -20,7 +20,7 @@ export const metadata = {
     description: "AI-powered Offering Memorandum generator for commercial real estate firms",
     images: [
       {
-        url: "https://memo.estate/og-image.jpg",
+        url: "https://memo.estate/graph.png",
         width: 1200,
         height: 630,
         alt: "AI OM Generator",
@@ -33,7 +33,7 @@ export const metadata = {
     title: "memo.estate - AI Offering Memorandum Generator",
     description: "AI-powered Offering Memorandum generator for commercial real estate firms",
     images: [
-      "https://memo.estate/og-image.jpg",
+      "https://memo.estate/graph.png",
     ],
   },
 };
