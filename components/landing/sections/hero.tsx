@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { useTheme } from "next-themes";
 import Link from "next/link";
+import Image from "next/image";
 import { FadeInWhenVisible } from "../FadeInWhenVisible";
 
 export const HeroSection = () => {
@@ -13,12 +14,21 @@ export const HeroSection = () => {
       <div className="grid place-items-center lg:max-w-screen-xl gap-8 mx-auto py-20 md:py-32">
         <FadeInWhenVisible>
           <div className="text-center space-y-8">
-            <Badge variant="outline" className="text-sm py-2">
-              <span className="mr-2 text-primary">
-                <Badge>New</Badge>
-              </span>
-              <span> AI-Powered Commercial Real Estate Tools </span>
-            </Badge>
+            <div className="flex items-center justify-center gap-3">
+              <Link href="https://cretaskwizard.com" target="_blank" rel="noopener noreferrer" className="transition-opacity hover:opacity-90">
+                <Badge variant="outline" className="text-sm py-1.5 px-3 flex items-center gap-2 bg-background/80 backdrop-blur-sm border-muted cursor-pointer">
+                  <Image src="/tw.png" alt="Task Wizard Logo" width={20} height={20} className="rounded-sm" />
+                  <span className="font-medium">Built by CRE Task Wizard</span>
+                </Badge>
+              </Link>
+
+              <Badge variant="outline" className="text-sm py-2">
+                <span className="mr-2 text-primary">
+                  <Badge>New</Badge>
+                </span>
+                <span> AI-Powered CRE Tools </span>
+              </Badge>
+            </div>
 
             <div className="max-w-screen-md mx-auto text-center text-4xl md:text-6xl font-bold">
               <h1>
@@ -50,6 +60,8 @@ export const HeroSection = () => {
                 <Link href="#pricing">View Pricing</Link>
               </Button>
             </div>
+            
+            
           </div>
         </FadeInWhenVisible>
 
